@@ -1,0 +1,14 @@
+numpy~=1.26.4
+keras==2.10.0
+setuptools~=69.0.3
+colorama==0.4.6
+scikit-video==1.1.11
+dlib==19.24.2
+imageio==2.31.5
+scipy~=1.12.0
+scikit-image==0.22.0
+editdistance==0.6.2
+nltk==3.8.1
+matplotlib==3.8.0
+tensorflow==2.10.0
+pandas~=2.2.0
