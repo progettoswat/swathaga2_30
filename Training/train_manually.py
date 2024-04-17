@@ -47,9 +47,9 @@ def train(run_name, start_epoch, stop_epoch, img_c, img_w, img_h, frames_n, abso
     lipnet.summary()
 
     # load weights
-    if start_epoch == 0:
-        start_file_w = os.path.join(OUTPUT_DIR, 'startWeight/V16_weights598.h5')
-        lipnet.model.load_weights(start_file_w)
+    #if start_epoch == 0:
+        #start_file_w = os.path.join(OUTPUT_DIR, 'startWeight/V16_weights598.h5')
+        #lipnet.model.load_weights(start_file_w)
 
     # load preexisting trained weights for the model weights113_peer_01.h5
     #if start_epoch > 0:
