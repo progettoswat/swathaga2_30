@@ -150,7 +150,7 @@ if __name__ == '__main__':
 
     minibatch_size = 16  # Minibatch size
 
-    num_samples_stats = 355  # Number of samples for statistics evaluation per epoch
+    num_samples_stats = 321  # Number of samples for statistics evaluation per epoch
 
     train(run_name, start_epoch, stop_epoch, img_c, img_w, img_h, frames_n, absolute_max_string_len, minibatch_size,
           num_samples_stats)
